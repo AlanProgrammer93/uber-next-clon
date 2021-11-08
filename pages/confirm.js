@@ -21,7 +21,7 @@ const Confirm = () => {
     const getPickupCoordinates = (pickup) => {
         fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${pickup}.json?`+
             new URLSearchParams({
-                access_token: "pk.eyJ1IjoiYWxhbjkzIiwiYSI6ImNrbHdwc3RubjByZ2sybnBiNGJiajZvNHYifQ.KfGZRFFepdj5RtXQ4wtRIg",
+                access_token: "tu token de mapbox",
                 limit: 1
             })
         )
@@ -35,7 +35,7 @@ const Confirm = () => {
     const getDropOffCoordinates = (dropoff) => {
         fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${dropoff}.json?`+
             new URLSearchParams({
-                access_token: "pk.eyJ1IjoiYWxhbjkzIiwiYSI6ImNrbHdwc3RubjByZ2sybnBiNGJiajZvNHYifQ.KfGZRFFepdj5RtXQ4wtRIg",
+                access_token: "tu token de mapbox",
                 limit: 1
             })
         )
